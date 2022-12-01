@@ -10,7 +10,8 @@ fn main() {
     let input = fs::read_to_string(input_path).expect("File could not be read");
 
     match method.as_str() {
-        "d1" => days::day1::part1(input),
+        "d1p1" => days::day1::part1(input),
+        "d1p2" => days::day1::part2(input),
         _ => println!("Invalid input."),
     };
 }
