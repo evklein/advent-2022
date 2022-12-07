@@ -13,6 +13,7 @@ fn main() {
         "d1p1" => days::day1::part1(input),
         "d1p2" => days::day1::part2(input),
         "d2p1" => days::day2::part1(input),
+        "d2p2" => days::day2::part2(input),
         _ => println!("Invalid input."),
     };
 }
