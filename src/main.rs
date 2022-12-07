@@ -12,6 +12,7 @@ fn main() {
     match method.as_str() {
         "d1p1" => days::day1::part1(input),
         "d1p2" => days::day1::part2(input),
+        "d2p1" => days::day2::part1(input),
         _ => println!("Invalid input."),
     };
 }

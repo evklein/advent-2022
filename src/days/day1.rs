@@ -1,5 +1,3 @@
-use std::thread::current;
-
 pub fn part1(input: String) {
     println!("Running Day 1 - Part 1");
 
