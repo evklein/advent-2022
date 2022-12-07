@@ -14,6 +14,8 @@ fn main() {
         "d1p2" => days::day1::part2(input),
         "d2p1" => days::day2::part1(input),
         "d2p2" => days::day2::part2(input),
+        "d3p1" => days::day3::part1(input),
+        "d3p2" => days::day3::part2(input),
         _ => println!("Invalid input."),
     };
 }
